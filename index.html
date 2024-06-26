@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LensCraft</title>
+    <link rel="icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="./boxicons-2.1.4/css/boxicons.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <ul class="sidebar">
+          <li onclick="hideSideBar()">
+            <a href="#"><i class="bx bx-x"></i></a>
+          </li>
+          <li onclick="hideSideBar()"><a href="#about-me">Home</a></li>
+          <li onclick="hideSideBar()">
+            <a href="#tech-stack">About Us</a>
+          </li>
+          <li onclick="hideSideBar()"><a href="#services">Shop</a></li>
+          <li onclick="hideSideBar()"><a href="#how-it-works">Contact</a></li>
+          <li onclick="hideSideBar()"><a href="#projects">Support</a></li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#" class="logo"
+              ><img src="./images/Logo.png" alt="logo"
+            /></a>
+          </li>
+          <li class="hide-on-mobile"><a href="#about-me">Home</a></li>
+          <li class="hide-on-mobile"><a href="#tech-stack">About Us</a></li>
+          <li class="hide-on-mobile"><a href="#services">Shop</a></li>
+          <li class="hide-on-mobile"><a href="#how-it-works">Contact</a></li>
+          <li class="hide-on-mobile"><a href="#projects">Support</a></li>
+          <li onclick="showSideBar()" class="menu-btn">
+            <a href="#"><i class="bx bx-menu"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="product">
+      <div class="container product-grid">
+        <div class="product-img">
+          <div class="product-img-con">
+            <div><img src="images/camera-unsplash-5.jpg" alt="" /></div>
+            <div class="product-img-grid">
+              <div><img src="images/camera-unsplash-1.jpg" alt="" /></div>
+              <div><img src="images/camera-unsplash-2.jpg" alt="" /></div>
+              <div><img src="images/camera-unsplash-3.jpg" alt="" /></div>
+              <div><img src="images/camera-unsplash-4.jpg" alt="" /></div>
+            </div>
+          </div>
+        </div>
+        <div class="product-text">
+          <h2>Canon EOS R5</h2>
+          <small>sku: 4147C002</small>
+          <div>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+          </div>
+          <p class="price">$2,899.00 <span>$3,399.00</span></p>
+          <small class="product-stock">In Stock</small>
+          <p class="desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            labore enim doloremque est praesentium id, fuga accusantium
+            perspiciatis autem placeat temporibus, eaque necessitatibus
+            consequatur tenetur ipsam itaque optio eius iusto?
+          </p>
+          <ul>
+            <li>
+              <i class="bx bx-chevron-right"></i>Full frame 24.2 megapixel CMOS
+              sensor
+            </li>
+            <li><i class="bx bx-chevron-right"></i>Dual Pixel CMOS AF II</li>
+            <li>
+              <i class="bx bx-chevron-right"></i>Up to 8-stop Image Stabiliser
+            </li>
+            <li>
+              <i class="bx bx-chevron-right"></i>Oversampled 4K 60p video or 6K
+              RAW
+            </li>
+            <li><i class="bx bx-chevron-right"></i>40fps electronic shutter</li>
+          </ul>
+          <button class="product-btn">Add To Cart</button>
+          <button class="product-btn">Buy Now</button>
+          <p class="product-paypal-con">
+            <img class="product-paypal" src="images/paypal.png" alt="paypal" />
+            As low as $156.16/mo.
+            <a href="#">Learn More</a>
+          </p>
+          <small>Need to order more than 10? <a href="#">Learn More</a></small>
+          <small>
+            Need help making a purchase? Contact a Sales Expert at
+            <a href="#">800-385-2155</a>
+          </small>
+        </div>
+      </div>
+    </section>
+    <section class="shipping-warranty">
+      <div class="container extra-sec">
+        <div class="warranty">
+          <h2>Warranty Policy</h2>
+          <div class="info-section">
+            <h3>Warranty</h3>
+            <ul>
+              <li>
+                <strong>Manufacturer’s Warranty:</strong> Covers any defects in
+                material or workmanship for a period of 1 year from the date of
+                purchase.
+              </li>
+              <li>
+                <strong>Extended Warranty:</strong> Available for an additional
+                fee, extending coverage to 3 years.
+              </li>
+            </ul>
+            <p>Our warranty covers:</p>
+            <ul>
+              <li>
+                <strong>Parts and Labor:</strong> Free repair or replacement of
+                defective parts.
+              </li>
+              <li>
+                <strong>Technical Support:</strong> Access to our expert
+                technical support team for troubleshooting and assistance.
+              </li>
+            </ul>
+            <p>
+              To initiate a warranty claim, please contact our customer service
+              team with your proof of purchase and a detailed description of the
+              issue. We are committed to resolving your concerns promptly and
+              efficiently.
+            </p>
+            <p>
+              For more information, please refer to our
+              <a href="#">Shipping and Warranty Policy</a>.
+            </p>
+          </div>
+        </div>
+        <div class="shipping">
+          <h2>Shipping method</h2>
+          <div class="shipping-item-con">
+            <div class="btn"><input type="radio" name="radio" id="" /></div>
+            <div class="charge">Free</div>
+            <div class="delivery-type">
+              <h4>DHL</h4>
+              <p>5-7 Business Days</p>
+            </div>
+            <div><img src="images/DHL.jpeg" alt="" /></div>
+          </div>
+          <div class="shipping-item-con">
+            <div class="btn"><input type="radio" name="radio" id="" /></div>
+            <div class="charge">$6</div>
+            <div class="delivery-type">
+              <h4>DHL</h4>
+              <p>4-6 Business Days</p>
+            </div>
+            <div><img src="images/DHL.jpeg" alt="" /></div>
+          </div>
+          <div class="shipping-item-con">
+            <div class="btn"><input type="radio" name="radio" id="" /></div>
+            <div class="charge">$12</div>
+            <div class="delivery-type">
+              <h4>FedEx</h4>
+              <p>3-5 Business Days</p>
+            </div>
+            <div><img src="images/fedexs.jpg" alt="" /></div>
+          </div>
+          <div class="shipping-item-con">
+            <div class="btn"><input type="radio" name="radio" id="" /></div>
+            <div class="charge">$19</div>
+            <div class="delivery-type">
+              <h4>FedEx</h4>
+              <p>3-5 Business Days</p>
+            </div>
+            <div><img src="images/fedexs.jpg" alt="" /></div>
+          </div>
+          <button>Continue</button>
+        </div>
+      </div>
+    </section>
+    <section class="review-section">
+      <div class="container reviews">
+        <div class="review-sum">
+          <div>
+            <h4>Overall rating</h4>
+            <div class="overall-flex">
+              <div><p class="rate-num">4.8</p></div>
+              <div class="center-align">
+                <div>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                </div>
+                <p>128 rating</p>
+              </div>
+            </div>
+            <p>92 out of 117 (79%) reviewers recommend this product</p>
+          </div>
+          <!-- rating-bar-item-con -->
+          <div class="rating-bar-item-con">
+            <div class="rating-bar-item">
+              <div>
+                <p>5 star</p>
+              </div>
+              <div class="bar-top">
+                <div class="bar-in"></div>
+              </div>
+              <div>117</div>
+            </div>
+            <div class="rating-bar-item">
+              <div>
+                <p>4 star</p>
+              </div>
+              <div class="bar-top">
+                <div class="bar-in bar-4"></div>
+              </div>
+              <div>97</div>
+            </div>
+            <div class="rating-bar-item">
+              <div>
+                <p>3 star</p>
+              </div>
+              <div class="bar-top">
+                <div class="bar-in bar-3"></div>
+              </div>
+              <div>18</div>
+            </div>
+            <div class="rating-bar-item">
+              <div>
+                <p>2 star</p>
+              </div>
+              <div class="bar-top">
+                <div class="bar-in bar-2"></div>
+              </div>
+              <div>5</div>
+            </div>
+            <div class="rating-bar-item">
+              <div>
+                <p>1 star</p>
+              </div>
+              <div class="bar-top">
+                <div class="bar-in bar-1"></div>
+              </div>
+              <div>13</div>
+            </div>
+          </div>
+          <div></div>
+        </div>
+        <!-- reviews -->
+        <div class="reviews-con">
+          <div class="review-item">
+            <div>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+            <div class="customer">
+              <img src="images/christian.jpg" alt="" />
+              <p>John Wick</p>
+            </div>
+            <div class="paras">
+              <p>25 April 2024</p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi, qui blanditiis itaque obcaecati ab eligendi optio
+                pariatur vel? Asperiores debitis facere dolor et ducimus
+                mollitia nulla veniam soluta tempore porro.
+              </p>
+              <p class="helpful-flex">
+                <span class="helpful">Helpful?</span>
+                <i class="bx bx-like"></i>
+                <i class="bx bx-dislike"></i>
+              </p>
+              <hr />
+            </div>
+          </div>
+          <div class="review-item">
+            <div>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+            <div class="customer">
+              <img src="images/miller.jpg" alt="" />
+              <p>Miller Anderson</p>
+            </div>
+            <div class="paras">
+              <p>13 May 2024</p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi, qui blanditiis itaque obcaecati ab eligendi optio
+                pariatur vel? Asperiores debitis facere dolor et ducimus
+                mollitia nulla veniam soluta tempore porro.
+              </p>
+              <p class="helpful-flex">
+                <span class="helpful">Helpful?</span>
+                <i class="bx bx-like"></i>
+                <i class="bx bx-dislike"></i>
+              </p>
+              <hr />
+            </div>
+          </div>
+          <div class="review-item">
+            <div>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+            <div class="customer">
+              <img src="images/nicole mason.jpg" alt="" />
+              <p>Nicole Mason</p>
+            </div>
+            <div class="paras">
+              <p>26 March 2024</p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi, qui blanditiis itaque obcaecati ab eligendi optio
+                pariatur vel? Asperiores debitis facere dolor et ducimus
+                mollitia nulla veniam soluta tempore porro.
+              </p>
+              <p class="helpful-flex">
+                <span class="helpful">Helpful?</span>
+                <i class="bx bx-like"></i>
+                <i class="bx bx-dislike"></i>
+              </p>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="subscribe">
+      <div class="container">
+        <div class="img">
+          <img src="images/subscribe-img.jpg" alt="" />
+        </div>
+        <div class="text">
+          <div>
+            <h2>Newsletter</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
+              adipisci cum sequi modi provident.
+            </p>
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Email Adress" />
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="shop-details">
+          <img src="images/Logo.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Voluptatibus voluptate rerum, neque ab sed nostrum amet tenetur
+            incidunt similique debitis dolores, accusamus atque voluptates
+            possimus esse.
+          </p>
+        </div>
+        <div class="contact-info">
+          <h3>Contact Info</h3>
+          <ul>
+            <li><i class="bx bxs-map"></i> 20/F Green Road, Netherlands</li>
+            <li><i class="bx bxs-envelope"></i> info@themevessel.com</li>
+            <li><i class="bx bxs-phone"></i> +0477 85X6 552</li>
+            <li><i class="bx bxs-phone"></i> +0427 85X6 568</li>
+          </ul>
+        </div>
+        <div class="social-links">
+          <h3>Follow Us</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
+            repellat quis iste corrupti
+          </p>
+          <div class="box-i">
+            <i class="bx bxl-facebook" title="facebook"></i>
+            <i class="bx bxl-instagram" title="instagram"></i>
+            <i class="bx bx-x" title="twitter"></i>
+            <i class="bx bxl-linkedin" title="linkedin"></i>
+            <i class="bx bxl-pinterest-alt" title="pinterest"></i>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="footer-bottom">LensCraft@2024. All rights reserved.</p>
+    </footer>
+    <!-- javascript link -->
+    <script src="./script.js"></script>
+  </body>
+</html>
